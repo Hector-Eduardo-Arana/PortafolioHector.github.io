@@ -1616,8 +1616,10 @@ a#scroll-btn:before {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   a#scroll-btn {
-    font-size: 12px;
+    display: none;
+
+    
   }
 }
